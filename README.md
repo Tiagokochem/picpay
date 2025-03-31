@@ -127,12 +127,23 @@ Teste: transfer dispatches notification job
 
 ---
 
+Swagger adicionado : 
+
+🔧 Passo 2: Gere novamente a documentação
+./vendor/bin/sail artisan l5-swagger:generate
+
+
+http://localhost/api/documentation
+
+![image](https://github.com/user-attachments/assets/c5f185ca-a938-43ca-8330-f8bb90c730d7)
+
+
+Filas com Redis Imprementado 
+
 ## 💡 Melhorias futuras
 
 - Autenticação com Sanctum
 - Versionamento de API
-- Filas com Redis
-- Swagger (OpenAPI)
 
 ---
 
