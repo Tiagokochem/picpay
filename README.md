@@ -90,10 +90,32 @@ Para executar os testes automatizados:
 
 Os testes cobrem:
 
-- Transferência autorizada
-- Saldo insuficiente
-- Lojista tentando transferir (negado)
-- Rejeição por API externa
+✅ Transferência autorizada
+
+Teste: user can transfer money
+
+✅ Saldo insuficiente
+
+Teste: transfer fails with insufficient balance
+
+✅ Lojista tentando transferir (negado)
+
+Teste: shopkeeper cannot initiate transfer
+
+✅ Rejeição por API externa (autorização negada)
+
+Teste: transfer fails when authorization is denied
+
+✅ Validação de campos obrigatórios
+
+Teste: transfer fails with invalid fields
+
+✅ Job de notificação é dispatchado com sucesso
+
+Teste: transfer dispatches notification job
+
+- ![image](https://github.com/user-attachments/assets/9a41e9e0-c92b-44b0-84fc-702d0ec07d3a)
+
 
 ---
 
