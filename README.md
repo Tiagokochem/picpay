@@ -1,6 +1,6 @@
-# PicPay Backend Challenge
+#  Backend 
 
-Este projeto implementa uma API RESTful inspirada no PicPay, com foco em transferências seguras entre usuários. Desenvolvido em Laravel 12 com Laravel Sail, seguindo boas práticas de arquitetura e testes.
+Este projeto implementa uma API RESTful, com foco em transferências seguras entre usuários. Desenvolvido em Laravel 12 com Laravel Sail, seguindo boas práticas de arquitetura e testes.
 
 ---
 
@@ -18,8 +18,8 @@ Este projeto implementa uma API RESTful inspirada no PicPay, com foco em transfe
 ## 🚀 Como executar localmente
 
 ```bash
-git clone https://github.com/Tiagokochem/picpay.git
-cd picpay
+git clone https://github.com/Tiagokochem/test.git
+cd test
 
 
 docker run --rm \
